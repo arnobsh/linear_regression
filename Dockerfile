@@ -11,6 +11,8 @@ RUN pip3 install -r requirements.txt
 RUN python -m pip install -U pip setuptools
 RUN python -m pip install matplotlib pillow
 RUN python -m pip install opencv-python
+RUN python -m pip install pandas
+RUN python -m pip install sklearn
 # Installing Jupyter notebook
 RUN python -m pip install jupyter
 # Copy resource file
